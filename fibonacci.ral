@@ -1,0 +1,25 @@
+Fibonacci sequence - - Paul Begg - - 07003470 - - n = number of iterations
+---
+0  21 # n
+1  0  # a
+2  1  # b
+3  1  # y
+4  0  # x
+---
+0  LDA 0  # load n
+1  STA 0  # store n
+2  JMZ 16 # exit loop
+3  LDA 1  # load a
+4  PRN 1  # output a
+5  LDA 2  # load b
+6  ADD 1  # add a
+7  STA 4  # store x
+8  LDA 2  # load b
+9  STA 1  # store in a
+10 LDA 4  # load x
+11 STA 2  # store in b
+12 LDA 0  # load n
+13 SUB 3  # subtract y
+14 STA 0  # store n
+15 JMP 0  # start of loop (n)
+16 HLT    # end program
