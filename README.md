@@ -1,3 +1,2 @@
 # FibLMC
-Fibonacci sequence in Little Man Computer (LMC) language
-Fibonacci sequence (with loop) inplemented in LMC assembly language
+Fibonacci sequence (with loop) inplemented in Little Man Computer (LMC) assembly language
